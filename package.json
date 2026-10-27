@@ -1,0 +1,34 @@
+{
+  "name": "@zhnuggo/omg",
+  "version": "1.0.0",
+  "description": "Zh'Nuggo's Obscure Markup Generator",
+  "homepage": "https://github.com/zhnuggo/omg",
+  "bugs": {
+    "url": "https://github.com/zhnuggo/omg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhnuggo/omg.git"
+  },
+  "files": ["index.js"],
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "AGPL-3.0",
+  "author": "zhnuggo <zhnuggo@outlook.com> (https://zhnuggo.com/)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint .",
+    "clean": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "chai": "^6.3.0",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "mocha": "^12.0.3"
+  }
+}
