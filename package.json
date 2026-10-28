@@ -1,6 +1,6 @@
 {
   "name": "@zhnuggo/omg",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Zh'Nuggo's Obscure Markup Generator",
   "homepage": "https://github.com/zhnuggo/omg",
   "bugs": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/zhnuggo/omg.git"
   },
-  "files": ["index.js"],
+  "files": ["index.js", "index.d.ts"],
   "types": "index.d.ts",
   "publishConfig": {
     "access": "public"
